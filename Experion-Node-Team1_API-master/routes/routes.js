@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Routes1 = require('./Courseroute');
-const Routes2 = require('./Resourceroute');
-const Routes3 = require('./Enquiryroute');
-const Routes4 = require('./Usersroute');
-const Routes5 = require('./Enquirystatusroute');
+const Routes1 = require('./courseroute');
+const Routes2 = require('./resourceroute');
+const Routes3 = require('./enquiryroute');
+const Routes4 = require('./usersroute');
+const Routes5 = require('./enquirystatusroute');
 
 router.use('/courses',Routes1);
 
